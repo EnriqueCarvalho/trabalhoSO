@@ -25,6 +25,8 @@ public class Servidor {
                     File f = new File("resources" + File.separator + linha0[1]);
                     if (linha0[1].equals("/")) {
                         f = new File("resources" + File.separator + "index.html");
+                    }else if (linha0[1].equals("/solicitar")){
+                        f = new File("resources" + File.separator + "solicitar.html");
                     }
                     if (f.exists()) {
                         FileInputStream fin = new FileInputStream(f);
