@@ -1,0 +1,25 @@
+.bus{
+    align-content: center;
+    width: 30%;
+}
+.bus img{
+    width: 100%;
+    color: black;
+}
+.bus i {
+    color: #02a702;
+    font-size: 40px;
+}
+.bus table{
+    text-align: center;
+    padding: 20px;
+}
+.bus table .left{
+    text-align: left;
+}
+.bus table .right{
+    text-align: right;
+}
+.bus table .ocupado{
+    color: rgba(255, 0, 0, 0.95);
+}
