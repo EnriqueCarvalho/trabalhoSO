@@ -1,15 +1,20 @@
 package br.ufsm.csi.so.server;
 
-import jdk.internal.util.xml.impl.Input;
 
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.file.Files;
+import java.util.concurrent.Semaphore;
 
 public class Servidor {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(80);
+        byte[] log = new byte[2048];
+        Semaphore vazio = new Semaphore(TamBuf);
+        Semaphore cheio = new Semaphore(0);
+        Semaphore mutex = new Semaphore(1);
+
             while (true) {
                 try {
                     Socket socket = serverSocket.accept();
@@ -17,9 +22,13 @@ public class Servidor {
                     byte[] buffer = new byte[2048];
                     int len = in.read(buffer);
                     String requisicao = new String(buffer, 0, len);
-                    System.out.println("Conexão recebida: " + requisicao);
+                    Object requisicao2 = new String(buffer, 0, len);
+                    System.out.println(buffer);
+                    System.out.println(requisicao2);
+                    
                     String[] lines = requisicao.split("\n");
                     String[] linha0 = lines[0].split(" ");
+
                     System.out.println("Comando: " + linha0[0] + " Recurso: " + linha0[1]);
                     OutputStream out = socket.getOutputStream();
                     File f = new File("resources" + File.separator + linha0[1]);
@@ -27,6 +36,11 @@ public class Servidor {
                         f = new File("resources" + File.separator + "index.html");
                     }else if (linha0[1].equals("/solicitar")){
                         f = new File("resources" + File.separator + "solicitar.html");
+                    }else if (linha0[1].startsWith("/solicitar")){
+                        //produtorConsumidor
+                    String[] aux = linha0[1].split("\\?");
+                     String id = aux[1].substring(4,6);
+                     System.out.println(id);
                     }
                     if (f.exists()) {
                         FileInputStream fin = new FileInputStream(f);
