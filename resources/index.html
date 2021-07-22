@@ -1,45 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Reserva de Passagens</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+    <nav>
+        <a href="./index.html">
+                        <div class="logo">
+                <img src="./img/onibus.jpg">
+                <h1>BUSffer</h1>
+            </div>
+        </a>
+    </nav>
 
-    <div class="bus">
-        <img src="img/bus-front.svg">
-        <div>
-
-            <table width="100%" cellpadding="15%" cellspacing="5%">
-                <tr>
-                    <td class="left"> 01 <i class="fas fa-chair "></i ><i class="fas fa-chair"></i> 02</td>
-                    <td class="right">03 <i class="fas fa-chair"></i> <i class="fas fa-chair"></i> 04</td>
-                </tr>
-                <tr>
-                    <td class="left">05 <i class="fas fa-chair ocupado"></i> <i class="fas fa-chair"> </i> 06</td>
-                    <td class="right">07 <i class="fas fa-chair"></i> <i class="fas fa-chair"></i> 08</td>
-                </tr>
-                <tr>
-                    <td class="left">09 <i class="fas fa-chair "></i> <i class="fas fa-chair"></i> 10</td>
-                    <td class="right">11 <i class="fas fa-chair"></i> <i class="fas fa-chair"></i> 12</td>
-                </tr>
-                <tr>
-                    <td class="left">13 <i class="fas fa-chair "></i> <i class="fas fa-chair"></i> 14</td>
-                    <td class="right">15 <i class="fas fa-chair"></i> <i class="fas fa-chair"></i> 16</td>
-                </tr>
-                <tr>
-                    <td class="left">17 <i class="fas fa-chair "></i> <i class="fas fa-chair"></i> 18</td>
-                    <td class="right">19 <i class="fas fa-chair"></i> <i class="fas fa-chair"></i> 20</td>
-                </tr>
+    <div class="container">
 
 
+
+        <div class="bus">
+            <img src="img/bus-front.svg">
+            <div>
+
+                <table width="100%" cellpadding="15%" cellspacing="5%">
+                    <tr>
+                        <td class="left"> 01 <i class="fas fa-chair icon1"></i><i class="fas fa-chair icon2"></i> 02</td>
+                        <td class="right">03 <i class="fas fa-chair icon3"></i> <i class="fas fa-chair icon4"></i> 04</td>
+                    </tr>
+                    <tr>
+                        <td class="left">05 <i class="fas fa-chair ocupado icon5"></i> <i class="fas fa-chair icon6"> </i> 06</td>
+                        <td class="right">07 <i class="fas fa-chair icon7"></i> <i class="fas fa-chair icon8"></i> 08</td>
+                    </tr>
+                    <tr>
+                        <td class="left">09 <i class="fas fa-chair selecionado icon9"></i> <i class="fas fa-chair icon10"></i> 10</td>
+                        <td class="right">11 <i class="fas fa-chair icon11"></i> <i class="fas fa-chair icon12"></i> 12</td>
+                    </tr>
+                    <tr>
+                        <td class="left">13 <i class="fas fa-chair icon13"></i> <i class="fas fa-chair icon14"></i> 14</td>
+                        <td class="right">15 <i class="fas fa-chair icon15"></i> <i class="fas fa-chair icon16"></i> 16</td>
+                    </tr>
+                    <tr>
+                        <td class="left">17 <i class="fas fa-chair icon17"></i> <i class="fas fa-chair icon18"></i> 18</td>
+                        <td class="right">19 <i class="fas fa-chair icon19"></i> <i class="fas fa-chair icon20"></i> 20</td>
+                    </tr>
+
+
+                </table>
+            </div>
+            <img src="img/bus-back.svg">
+        </div>
+
+        <div class="bus-ocupation">
+            <h1>Acentos</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Número</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Viajante</th>
+                        <th scope="col">Data e Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                    </tr>
+                </tbody>
             </table>
         </div>
+
         <img src="img/bus-back.svg">
     </div>
 <script type="text/javascript" src="js/index.js"></script>
 
+
+
+
+
+    </div>
+    <script>
+        for (i = 0; i <= 20; i++) {
+            $('#teste').append(`<tr>
+                <th scope="row">1</th>
+                <td>Livre</td>
+                <td>Mark</td>
+                <td>12/12/2012:13:56</td>
+              </tr>`)
+        }
+    </script>
 </body>
+
 </html>
