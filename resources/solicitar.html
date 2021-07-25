@@ -72,7 +72,8 @@
             
                 <div class="form-group selectAcento">
                     <label for="sel-acento">Selecione o acento:</label>
-                    <select class="form-control" id="sel-acento" name="num">
+                    <select class="form-control" id="sel-acento" name="num" required>
+                        <option value="" data-default disabled selected>Selecione</option>
                         <option id="1">01</option>
                         <option id="2">02</option>
                         <option id="3">03</option>
@@ -114,16 +115,9 @@
             $('.selecionado').removeClass('selecionado')
 
            numAcento = $('#sel-acento').val();
-           $(`i.icon${numAcento}`).addClass('selecionado')
+           $(`i.icon0${parseInt(numAcento)}`).addClass('selecionado')
         })
-        for (i = 0; i <= 20; i++) {
-            $('#teste').append(`<tr>
-                <th scope="row">1</th>
-                <td>Livre</td>
-                <td>Mark</td>
-                <td>12/12/2012:13:56</td>
-              </tr>`)
-        }
+       
     </script>
 </body>
 
