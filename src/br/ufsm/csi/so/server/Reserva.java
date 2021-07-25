@@ -8,7 +8,7 @@ public class Reserva {
     private boolean reservado;
     private String nome;
     private String data;
-    private Semaphore mutex = new Semaphore(1 );
+
 
     public Reserva(int numAssento, boolean reservado, String nome, String data) {
         this.numAssento = numAssento;
@@ -17,13 +17,7 @@ public class Reserva {
         this.data = data;
     }
 
-    public Semaphore getMutex() {
-        return mutex;
-    }
 
-    public void setMutex(Semaphore mutex) {
-        this.mutex = mutex;
-    }
 
     public boolean isReservado() {
         return reservado;
@@ -59,7 +53,7 @@ public class Reserva {
 
     public static boolean verificarLugares(Integer numAssento, ArrayList<Reserva> res){
         for (Reserva reservas : res) {
-            System.out.println(reservas.getNome());
+
             if (reservas.getNumAssento()==numAssento){
                 return true;
             }
