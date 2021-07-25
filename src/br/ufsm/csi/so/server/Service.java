@@ -32,9 +32,6 @@ public class Service {
                 body=body+" $('.icon0"+res.getNumAssento()+"').addClass('ocupado'); ";
             }
         }
-
-
-
         return header.concat(body);
     }
     public static String getHeader(){

@@ -22,7 +22,6 @@ public class Requisicao implements Runnable {
         String[] lines = requisicao.split("\n");
         String[] linha0 = lines[0].split(" ");
 
-        /*  System.out.println("Comando: " + linha0[0] + " Recurso: " + linha0[1]);*/
         OutputStream out = socket.getOutputStream();
         File f = new File("resources" + File.separator + linha0[1]);
 
@@ -32,7 +31,6 @@ public class Requisicao implements Runnable {
 
         } else if (linha0[1].startsWith("/solicitar")) {
             f = new File("resources" + File.separator + "solicitar.html");
-            //produtorConsumidor
 
 
         } else if (linha0[1].startsWith("/finalizar")) {
@@ -91,23 +89,15 @@ public class Requisicao implements Runnable {
                     default:
                 }
             }
-
-
             len = fin.read(buffer);
-
-
             while (len > 0) {
                 out.write(buffer, 0, len);
                 len = fin.read(buffer);
             }
-
         }
-
-
         out.flush();
         socket.close();
     }
-
 
     @Override
     public void run() {
