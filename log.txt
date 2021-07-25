@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /0:0:0:0:0:0:0:1 
 /0:0:0:0:0:0:0:1 
 /0:0:0:0:0:0:0:1 
@@ -9,3 +10,335 @@
 /0:0:0:0:0:0:0:1 
 /0:0:0:0:0:0:0:1 
 /0:0:0:0:0:0:0:1 
+=======
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=asd&num=03 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+
+Ip:/0:0:0:0:0:0:0:1Endereco: GET /finalizar?nome=adwwa&num=02 HTTP/1.1
+Data e hora: 12/12/12 
+>>>>>>> Stashed changes
