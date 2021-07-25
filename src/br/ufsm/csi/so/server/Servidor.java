@@ -12,13 +12,10 @@ public class Servidor {
     public static ArrayList <Reserva> reservas = new ArrayList();
     public static Integer suc = 2 ;
     public static void main(String[] args) throws IOException {
-
-
-
         ServerSocket serverSocket = new ServerSocket(80);
-
             while (true) {
                 try {
+
                    new Thread(new Requisicao(serverSocket,suc,mutex,reservas)).start();
                 } catch (Exception e) {
                     System.out.println("Erro: " + e.getMessage());

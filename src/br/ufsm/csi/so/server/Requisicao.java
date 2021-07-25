@@ -18,22 +18,16 @@ public class Requisicao implements Runnable {
         int len = in.read(buffer);
         String requisicao = new String(buffer, 0, len);
 
-
         String[] lines = requisicao.split("\n");
         String[] linha0 = lines[0].split(" ");
-
-        /*  System.out.println("Comando: " + linha0[0] + " Recurso: " + linha0[1]);*/
         OutputStream out = socket.getOutputStream();
+
         File f = new File("resources" + File.separator + linha0[1]);
 
         if (linha0[1].equals("/")) {
             f = new File("resources" + File.separator + "index.html");
-
-
         } else if (linha0[1].startsWith("/solicitar")) {
             f = new File("resources" + File.separator + "solicitar.html");
-            //produtorConsumidor
-
 
         } else if (linha0[1].startsWith("/finalizar")) {
             mutex.acquire();
@@ -60,20 +54,18 @@ public class Requisicao implements Runnable {
             mutex.release();
             f = new File("resources" + File.separator + "index.html");
 
-
         } else if (linha0[1].equals("/js/index.js")) {
             String js = Service.montaJS(reservas);
             out.write(js.getBytes());
-
         } else if (linha0[1].equals("/js/solicitar.js")) {
             String js = Service.montaJSSolicitar(reservas);
             out.write(js.getBytes());
-
         }
+
+
         if (f.exists() && !linha0[1].equals("/js/index.js") && !linha0[1].equals("/js/solicitar.js")) {
             FileInputStream fin = new FileInputStream(f);
             String mimeType = Files.probeContentType(f.toPath());
-
 
             out.write(("HTTP/1.1 200 OK\n" +
                     "Content-Type: " + mimeType + ";charset=UTF-8\n\n").getBytes());
@@ -89,10 +81,7 @@ public class Requisicao implements Runnable {
                     default:
                 }
             }
-
-
             len = fin.read(buffer);
-
 
             while (len > 0) {
                 out.write(buffer, 0, len);
