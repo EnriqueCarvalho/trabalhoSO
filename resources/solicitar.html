@@ -35,15 +35,15 @@
 
                 <table width="100%" cellpadding="15%" cellspacing="5%">
                     <tr>
-                        <td class="left"> 01 <i class="fas fa-chair icon01"></i><i class="fas fa-chair icon02"></i> 02</td>
+                        <td class="left"> 01 <i class="fas fa-chair icon01 "></i><i class="fas fa-chair icon02"></i> 02</td>
                         <td class="right">03 <i class="fas fa-chair icon03"></i> <i class="fas fa-chair icon04"></i> 04</td>
                     </tr>
                     <tr>
-                        <td class="left">05 <i class="fas fa-chair ocupado icon05"></i> <i class="fas fa-chair icon06"> </i> 06</td>
+                        <td class="left">05 <i class="fas fa-chair  icon05"></i> <i class="fas fa-chair icon06"> </i> 06</td>
                         <td class="right">07 <i class="fas fa-chair icon07"></i> <i class="fas fa-chair icon08"></i> 08</td>
                     </tr>
                     <tr>
-                        <td class="left">09 <i class="fas fa-chair selecionado icon09"></i> <i class="fas fa-chair icon010"></i> 10</td>
+                        <td class="left">09 <i class="fas fa-chair  icon09"></i> <i class="fas fa-chair icon010"></i> 10</td>
                         <td class="right">11 <i class="fas fa-chair icon011"></i> <i class="fas fa-chair icon012"></i> 12</td>
                     </tr>
                     <tr>
@@ -63,25 +63,41 @@
 
         <div class="bus-ocupation">
             <h1>Reservar Passagem</h1>
-            <form class="formReserva" method="GET">
+            <form class="formReserva" method="GET" action="/finalizar">
                 
                 <div class="form-group inputName">
                     <label for="nameid">Nome completo:</label>
-                    <input type="name" class="form-control" id="nameid" placeholder="Nome e sobrenome">
+                    <input type="text" class="form-control" id="nameid" name="nome" placeholder="Nome e sobrenome" required>
                 </div>
             
                 <div class="form-group selectAcento">
                     <label for="sel-acento">Selecione o acento:</label>
                     <select class="form-control" id="sel-acento" name="num">
-                        <option>01</option>
-                        <option>02</option>
-                        <option>03</option>
-                        <option>04</option>
-                        <option>05</option>
+                        <option id="1">01</option>
+                        <option id="2">02</option>
+                        <option id="3">03</option>
+                        <option id="4">04</option>
+                        <option id="5">05</option>
+                        <option id="6">06</option>
+                        <option id="7">07</option>
+                        <option id="8">08</option>
+                        <option id="9">09</option>
+                        <option id="10">10</option>
+                        <option id="11">11</option>
+                        <option id="12">12</option>
+                        <option id="13">13</option>
+                        <option id="14">14</option>
+                        <option id="15">15</option>
+                        <option id="16">16</option>
+                        <option id="17">17</option>
+                        <option id="18">18</option>
+                        <option id="19">19</option>
+                        <option id="20">20</option>
+
                     </select>
                 </div>
             
-                <input type="submit" class="btn btn-success" >
+                <input type="submit" class="btn btn-success" value="finalizar" >
             
             </form>
 
@@ -91,6 +107,7 @@
 
 
     </div>
+    <script type="text/javascript" src="js/solicitar.js"></script>
     <script>
         var numAcento
         $('#sel-acento').change((value)=>{

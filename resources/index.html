@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -35,25 +36,26 @@
 
                 <table width="100%" cellpadding="15%" cellspacing="5%">
                     <tr>
-                        <td class="left"> 01 <i class="fas fa-chair icon1"></i><i class="fas fa-chair icon2"></i> 02</td>
-                        <td class="right">03 <i class="fas fa-chair icon3"></i> <i class="fas fa-chair icon4"></i> 04</td>
+                        <td class="left"> 01 <i class="fas fa-chair icon1" id="1"></i><i class="fas fa-chair icon2" id="2"></i> 02</td>
+                        <td class="right">03 <i class="fas fa-chair icon3" id="3"></i> <i class="fas fa-chair icon4" id="4"></i> 04</td>
                     </tr>
                     <tr>
-                        <td class="left">05 <i class="fas fa-chair ocupado icon5"></i> <i class="fas fa-chair icon6"> </i> 06</td>
-                        <td class="right">07 <i class="fas fa-chair icon7"></i> <i class="fas fa-chair icon8"></i> 08</td>
+                        <td class="left">05 <i class="fas fa-chair icon5" id="5"></i> <i class="fas fa-chair icon6" id="6"> </i> 06</td>
+                        <td class="right">07 <i class="fas fa-chair icon7" id="7"></i> <i class="fas fa-chair icon8" id="8"></i> 08</td>
                     </tr>
                     <tr>
-                        <td class="left">09 <i class="fas fa-chair selecionado icon9"></i> <i class="fas fa-chair icon10"></i> 10</td>
-                        <td class="right">11 <i class="fas fa-chair icon11"></i> <i class="fas fa-chair icon12"></i> 12</td>
+                        <td class="left">09 <i class="fas fa-chair  icon9" id="9"></i> <i class="fas fa-chair icon10" id="10"></i> 10</td>
+                        <td class="right">11 <i class="fas fa-chair icon11" id="11"></i> <i class="fas fa-chair icon12" id="12"></i> 12</td>
                     </tr>
                     <tr>
-                        <td class="left">13 <i class="fas fa-chair icon13"></i> <i class="fas fa-chair icon14"></i> 14</td>
-                        <td class="right">15 <i class="fas fa-chair icon15"></i> <i class="fas fa-chair icon16"></i> 16</td>
+                        <td class="left">13 <i class="fas fa-chair  icon9" id="13"></i> <i class="fas fa-chair icon10" id="14"></i> 14</td>
+                        <td class="right">15 <i class="fas fa-chair icon11" id="15"></i> <i class="fas fa-chair icon12" id="16"></i> 16</td>
                     </tr>
                     <tr>
-                        <td class="left">17 <i class="fas fa-chair icon17"></i> <i class="fas fa-chair icon18"></i> 18</td>
-                        <td class="right">19 <i class="fas fa-chair icon19"></i> <i class="fas fa-chair icon20"></i> 20</td>
+                        <td class="left">17 <i class="fas fa-chair  icon9" id="17"></i> <i class="fas fa-chair icon10" id="18"></i> 18</td>
+                        <td class="right">19 <i class="fas fa-chair icon11" id="19"></i> <i class="fas fa-chair icon12" id="20"></i> 20</td>
                     </tr>
+
 
 
                 </table>
@@ -62,12 +64,11 @@
         </div>
 
         <div class="bus-ocupation">
-            <h1>Acentos</h1>
-            <table class="table">
+            <h1>Assentos ocupados</h1>
+            <table class="table" id="teste">
                 <thead>
                     <tr>
                         <th scope="col">Número</th>
-                        <th scope="col">Estado</th>
                         <th scope="col">Viajante</th>
                         <th scope="col">Data e Hora</th>
                     </tr>
@@ -78,6 +79,7 @@
                     </tr>
                 </tbody>
             </table>
+            <a class="btn btn-info" href="/solicitar">Solicitar</a>
         </div>
 
         <img src="img/bus-back.svg">
@@ -89,16 +91,7 @@
 
 
     </div>
-    <script>
-        for (i = 0; i <= 20; i++) {
-            $('#teste').append(`<tr>
-                <th scope="row">1</th>
-                <td>Livre</td>
-                <td>Mark</td>
-                <td>12/12/2012:13:56</td>
-              </tr>`)
-        }
-    </script>
+
 </body>
 
 </html>
