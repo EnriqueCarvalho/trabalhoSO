@@ -9,7 +9,7 @@ import java.util.concurrent.Semaphore;
 
 public class GerenciaLog {
 
-    private static int tamBuf = 100;
+    private static int tamBuf = 1000;
     private static byte[] logBuffer = new byte[tamBuf];
     private Socket Socket;
     private InetAddress ipReservado;
@@ -47,19 +47,17 @@ public class GerenciaLog {
           ipReservado = Socket.getInetAddress();
             String ipString = ipReservado.toString();
             String[] endereco = requisicao.split("Host");
-            ipString = "\nIp:"  + ipString +  "Endereco: " + endereco[0] + "Data e hora: "+  dataHora +  " \n";
+            String logString = "\nIp:"  + ipString +  " Endereco: " + endereco[0] + " Data e hora: "+  dataHora +  " \n";
   
-            byte[] ipBype = ipString.getBytes();
-            int tamBufAtual = logBuffer.length - iStatic;
-
+            byte[] logBype = logString.getBytes();
             try {
-                vazio.acquire(ipBype.length);
+                vazio.acquire(logBype.length);
                 mutex.acquire();
             } catch (InterruptedException e) {
             }
             System.out.println("gravou");
-            for (int i = 0; i < ipBype.length; i++) {
-                logBuffer[iStatic] = ipBype[i];
+            for (int i = 0; i < logBype.length; i++) {
+                logBuffer[iStatic] = logBype[i];
                 iStatic++;
             }
             mutex.release();
