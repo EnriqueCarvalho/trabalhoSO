@@ -1,0 +1,12 @@
+
+Ip:/127.0.0.1 Endereco: GET /finalizar?nome=Enriuqe&num=02 HTTP/1.1
+ Data e hora: 25/07/2021 19:50:53 
+
+Ip:/127.0.0.1 Endereco: GET /finalizar?nome=maria&num=07 HTTP/1.1
+ Data e hora: 25/07/2021 19:53:02 
+
+Ip:/127.0.0.1 Endereco: GET /finalizar?nome=Angelo&num=20 HTTP/1.1
+ Data e hora: 25/07/2021 19:55:47 
+
+Ip:/127.0.0.1 Endereco: GET /finalizar?nome=Opa+sopa&num=17 HTTP/1.1
+ Data e hora: 25/07/2021 19:56:01 
