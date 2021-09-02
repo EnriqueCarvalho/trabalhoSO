@@ -75,10 +75,10 @@ public class Requisicao implements Runnable {
             String mimeType = Files.probeContentType(f.toPath());
 
 
-            out.write(("HTTP/1.1 200 OK\n" +            //monta o cabeçalho http
+            out.write(("HTTP/1.1 200 OK\n" +            //monta o cabecalho http
                     "Content-Type: " + mimeType + ";charset=UTF-8\n\n").getBytes());
 
-            if (linha0[1].startsWith("/finalizar")) { //verifica se houve sucesso ou falha na solicitação do pedido
+            if (linha0[1].startsWith("/finalizar")) { //verifica se houve sucesso ou falha na solicitacao do pedido
                 switch (suc) {
                     case 1:
                         out.write("<script type='text/javascript'>alert('Seu pedido foi realizado com sucesso')</script>".getBytes(StandardCharsets.UTF_8));
