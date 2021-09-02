@@ -16,8 +16,8 @@ public class Servidor {
 
 
 
-        ServerSocket serverSocket = new ServerSocket(80);
-
+        ServerSocket serverSocket = new ServerSocket(8080);
+        System.out.println("Rodando...");
             while (true) {
                 try {
                    new Thread(new Requisicao(serverSocket,suc,mutex,reservas)).start();
